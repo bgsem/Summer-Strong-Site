@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Strong Golf Fundraiser</title>
+    
+    <!-- Tailwind CSS CDN for instant styling without installation -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts for a polished typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        .hero-bg {
+            /* Using a high-quality placeholder golf image. You can replace this URL with a photo from your past events! */
+            background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        /* ALSF Brand Colors */
+        .alsf-yellow { color: #facc15; }
+        .bg-alsf-yellow { background-color: #facc15; }
+        .hover-alsf-yellow:hover { background-color: #eab308; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- HERO SECTION -->
+    <header class="hero-bg text-white min-h-[85vh] flex flex-col justify-center items-center text-center px-4 py-20">
+        <div class="max-w-4xl mx-auto space-y-8">
+            <h3 class="text-xl md:text-2xl font-semibold uppercase tracking-widest text-yellow-400">Annual Golf Outing</h3>
+            
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight">
+                Play a Round.<br>
+                <span class="alsf-yellow">Cure Childhood Cancer.</span>
+            </h1>
+            
+            <p class="text-lg md:text-2xl text-slate-200 max-w-2xl mx-auto font-light">
+                Join the Summer Strong Hero Fund in our mission to drive out childhood cancer, one swing at a time.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4 pt-6">
+                <!-- Anchor link down to the cart (which we will build next) -->
+                <a href="#storefront" class="bg-alsf-yellow text-slate-900 font-bold text-lg px-8 py-4 rounded-full shadow-lg hover-alsf-yellow transition-all transform hover:scale-105">
+                    Register to Golf & Sponsor
+                </a>
+                
+                <!-- Direct Link to ALSF -->
+                <a href="https://www.alexslemonade.org/affiliation/alsf-fund-summer-strong-hero-fund" target="_blank" class="bg-transparent border-2 border-white text-white font-bold text-lg px-8 py-4 rounded-full hover:bg-white hover:text-slate-900 transition-all">
+                    Make a Direct Donation
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- WHY WE PLAY SECTION -->
+    <section class="py-20 px-4 md:px-8 bg-white">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            
+            <!-- Left Side: Image & Impact Stat -->
+            <div class="relative">
+                <div class="bg-slate-200 rounded-2xl overflow-hidden shadow-2xl">
+                    <!-- Placeholder image -->
+                    <img src="https://images.unsplash.com/photo-1592919505780-303950717480?q=80&w=2000&auto=format&fit=crop" alt="Golfers on the green" class="w-full h-auto object-cover">
+                </div>
+                
+                <!-- Floating Impact Stat Box -->
+                <div class="absolute -bottom-8 -right-4 md:-right-8 bg-slate-900 text-white p-6 md:p-8 rounded-xl shadow-xl border-b-4 border-yellow-400">
+                    <p class="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-1">Raised to Date</p>
+                    <p class="text-3xl md:text-4xl font-extrabold text-yellow-400">$534,000+</p>
+                </div>
+            </div>
+
+            <!-- Right Side: The Narrative -->
+            <div class="space-y-6 md:pl-8 mt-8 md:mt-0">
+                <h2 class="text-4xl font-bold text-slate-900">Why We Play</h2>
+                <div class="w-20 h-1 bg-yellow-400 rounded"></div>
+                
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    The Summer Strong Hero Fund was established to create a legacy of hope. Every year, we gather on the green not just to play golf, but to rally our community around a critical cause: funding life-saving research for childhood cancer through Alex's Lemonade Stand Foundation.
+                </p>
+                
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    Since our inception, our incredible supporters have helped raise over <strong class="text-slate-900 font-bold">$534,000</strong>. When you register for a foursome, sponsor a hole, or make a donation, you are directly funding breakthrough treatments and bringing us closer to a cure.
+                </p>
+                
+                <blockquote class="border-l-4 border-yellow-400 pl-6 my-8 italic text-xl text-slate-700 font-medium">
+                    "When life gives you lemons, play golf and make a difference."
+                </blockquote>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- The Storefront will go here -->
+    <div id="storefront"></div>
+
+</body>
+</html>
