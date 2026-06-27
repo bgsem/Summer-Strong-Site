@@ -3,230 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summer Strong Golf Fundraiser</title>
-    
-    <!-- Tailwind CSS CDN for instant styling -->
+    <title>Summer Strong Hero Fund</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
-    
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-        
-        .hero-bg {
-            /* Using lounge.jpg as the hero banner background */
-            background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('lounge.jpg');
-            background-size: cover;
-            background-position: center;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased">
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
 
     <!-- HERO SECTION -->
-    <header class="hero-bg text-white min-h-[85vh] flex flex-col justify-center items-center text-center px-4 py-20">
-        <div class="max-w-4xl mx-auto space-y-8">
-            <h3 class="text-xl md:text-2xl font-semibold uppercase tracking-widest text-yellow-400">Annual Golf Outing</h3>
-            
-            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight">
-                Play a Round.<br>
-                <span class="text-yellow-400">Cure Childhood Cancer.</span>
-            </h1>
-            
-            <p class="text-lg md:text-2xl text-slate-200 max-w-2xl mx-auto font-light">
-                Join the Summer Strong Hero Fund in our mission to drive out childhood cancer, one swing at a time.
-            </p>
-            
-            <div class="flex flex-col sm:flex-row justify-center gap-4 pt-6">
-                <!-- Anchor link down to the cart -->
-                <a href="#storefront" class="bg-yellow-400 text-slate-900 font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:bg-yellow-500 transition-all transform hover:scale-105">
-                    Register to Golf & Sponsor
-                </a>
-                
-                <!-- Direct Link to ALSF 2026 Golf Outing Page -->
-                <a href="https://www.alexslemonade.org/2026/summer-strong-golf-2026" target="_blank" class="bg-transparent border-2 border-white text-white font-bold text-lg px-8 py-4 rounded-full hover:bg-white hover:text-slate-900 transition-all">
-                    Make a Direct Donation
-                </a>
+    <header class="bg-white min-h-[75vh] flex flex-col lg:flex-row items-center relative overflow-hidden">
+        <div class="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left px-8 py-20 lg:pl-20">
+            <img src="Logo.jpeg" alt="Summer Strong Logo" class="w-48 mb-8">
+            <h3 class="text-xl font-bold uppercase tracking-widest text-yellow-500 mb-2">Alex's Lemonade Stand Foundation</h3>
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight text-slate-900 mb-6">The Summer Strong <br><span class="text-slate-700">Hero Fund</span></h1>
+            <p class="text-lg md:text-xl text-slate-600 max-w-lg mb-10 font-medium">Turning an unimaginable situation into a legacy of hope. Join us in our mission to aggressively fund research and drive out childhood cancer.</p>
+            <div class="flex flex-col sm:flex-row gap-4 w-full justify-center lg:justify-start">
+                <a href="#featured-event" class="bg-yellow-400 text-slate-900 font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:bg-yellow-500 transition-all">2026 Golf Outing</a>
+                <a href="https://www.alexslemonade.org/affiliation/alsf-fund-summer-strong-hero-fund" target="_blank" class="bg-slate-900 text-white font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:bg-slate-800 transition-all">Donate to the Fund</a>
             </div>
+        </div>
+        <div class="w-full lg:w-1/2 h-[50vh] lg:h-[75vh] relative">
+            <img src="Banner.jpeg" alt="Summer Strong" class="absolute inset-0 w-full h-full object-cover">
         </div>
     </header>
 
-    <!-- THE STORY SECTION -->
-    <section class="py-20 px-4 md:px-8 bg-white">
+    <!-- STORY SECTION -->
+    <section class="py-20 px-4 bg-white">
         <div class="max-w-6xl mx-auto space-y-20">
-            
-            <!-- ABOUT SUMMER -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div class="space-y-6 md:pr-8">
+                <div class="space-y-6">
                     <h2 class="text-4xl font-bold text-slate-900">About Summer</h2>
-                    <div class="w-20 h-1 bg-yellow-400 rounded"></div>
-                    
-                    <p class="text-lg text-slate-600 leading-relaxed">
-                        Summer was born in August 2014 and brought constant joy, silliness, and positivity to our family. She was an easy-going girl who loved all things Disney, especially Pixar’s <em>Monsters, Inc.</em>, and taking excellent care of her three dogs: Daisy, Buzz, and Lilly. She had a passion for music, sparkly manicures, and a constant stream of Mickey Mouse and Doc McStuffins.
-                    </p>
-                    
-                    <p class="text-lg text-slate-600 leading-relaxed">
-                        In March 2015, at just seven months old, doctors discovered a 10 cm mass in her liver. What was initially thought to be hepatoblastoma was later identified as a rare Malignant Rhabdoid Tumor. For over a year and a half, Summer bravely faced continuous, high-intensity treatments, including extensive surgeries, a stem cell transplant, and radiation.
-                    </p>
-
-                    <p class="text-lg text-slate-600 leading-relaxed font-medium">
-                        She never let her cancer define her, and even on the hardest days, she found a way to play and be happy. She passed away at home, surrounded by our family, in September 2016 at the age of two. She was the strongest person any of us will ever get the chance to meet, and she remains my absolute hero.
-                    </p>
+                    <p class="text-lg text-slate-600">Summer was born in August 2014, bringing constant joy, silliness, and positivity. She loved all things Disney and taking care of her dogs: Daisy, Buzz, and Lilly. In March 2015, at just seven months old, she was diagnosed with a rare Malignant Rhabdoid Tumor. For over a year and a half, she bravely faced high-intensity treatments, never letting cancer define her. She remains our absolute hero.</p>
                 </div>
-
-                <div class="bg-slate-200 rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-100">
-                    <img src="mcstuffings.JPG" alt="Summer smiling" class="w-full h-auto object-cover aspect-[4/5]">
-                </div>
-            </div>
-
-            <!-- ABOUT THE FUND -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center flex-col-reverse md:flex-row-reverse">
-                
-                <div class="bg-slate-200 rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-100 order-last md:order-first">
-                    <img src="boysouting.jpg" alt="Team Summer Strong" class="w-full h-auto object-cover aspect-[4/5]">
-                </div>
-
-                <div class="space-y-6 md:pl-8">
-                    <h2 class="text-4xl font-bold text-slate-900">The Summer Strong Hero Fund</h2>
-                    <div class="w-20 h-1 bg-yellow-400 rounded"></div>
-                    
-                    <p class="text-lg text-slate-600 leading-relaxed">
-                        Shortly after Summer’s diagnosis, our family and friends became involved with <a href="https://www.alexslemonade.org/affiliation/alsf-fund-summer-strong-hero-fund" target="_blank" class="text-yellow-500 font-bold hover:underline">Alex's Lemonade Stand Foundation</a> to try and make lemonade out of an unimaginable situation. The world of childhood cancer is scary and uncontrollable, but focusing on making a positive impact helped us navigate the toughest times.
-                    </p>
-                    
-                    <p class="text-lg text-slate-600 leading-relaxed">
-                        Today, Team Summer Strong has grown into an incredible community with supporters ranging from age 1 to 95. We have been represented across the country at lemonade stands, school fundraisers, and races in Orlando, New York, and Philadelphia.
-                    </p>
-
-                    <p class="text-lg font-bold text-slate-900 leading-relaxed">
-                        A child should never have to wait for a lifesaving clinical trial. By joining us on the green, you are helping aggressively fund research so kids like Summer get the childhood they desperately deserve.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- THE STOREFRONT -->
-    <section id="storefront" class="py-20 bg-slate-50 border-t border-slate-200">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-4xl font-bold text-center text-slate-900 mb-12">Register & Sponsor</h2>
-            
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                
-                <!-- Items List -->
-                <div class="lg:col-span-2 space-y-6">
-                    
-                    <!-- Foursome Package -->
-                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 flex justify-between items-center">
-                        <div>
-                            <h3 class="text-xl font-bold text-slate-800">Foursome Package</h3>
-                            <p class="text-slate-500 text-sm mt-1">Includes 18 holes, cart, lunch, and dinner for four players.</p>
-                            <p class="text-2xl font-bold text-yellow-500 mt-2">$800.00</p>
-                        </div>
-                        <button onclick="addToCart('Foursome', 800)" class="bg-slate-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-slate-800 transition-colors">Add to Cart</button>
-                    </div>
-
-                    <!-- Individual Golfer -->
-                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 flex justify-between items-center">
-                        <div>
-                            <h3 class="text-xl font-bold text-slate-800">Individual Golfer</h3>
-                            <p class="text-slate-500 text-sm mt-1">Includes 18 holes, cart, lunch, and dinner for one player.</p>
-                            <p class="text-2xl font-bold text-yellow-500 mt-2">$200.00</p>
-                        </div>
-                        <button onclick="addToCart('Individual Golfer', 200)" class="bg-slate-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-slate-800 transition-colors">Add to Cart</button>
-                    </div>
-
-                    <!-- Hole Sponsor -->
-                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 flex justify-between items-center">
-                        <div>
-                            <h3 class="text-xl font-bold text-slate-800">Hole Sponsor</h3>
-                            <p class="text-slate-500 text-sm mt-1">Custom signage at one tee box recognizing your family or business.</p>
-                            <p class="text-2xl font-bold text-yellow-500 mt-2">$250.00</p>
-                        </div>
-                        <button onclick="addToCart('Hole Sponsor', 250)" class="bg-slate-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-slate-800 transition-colors">Add to Cart</button>
-                    </div>
-                </div>
-
-                <!-- Shopping Cart Panel -->
-                <div class="bg-white p-6 rounded-xl shadow-xl border-t-4 border-yellow-400 h-fit sticky top-6">
-                    <h3 class="text-2xl font-bold text-slate-900 mb-4">Your Cart</h3>
-                    
-                    <ul id="cart-items" class="space-y-3 mb-6 divide-y divide-slate-100">
-                        <li class="text-slate-500 italic py-2">Your cart is empty.</li>
-                    </ul>
-                    
-                    <div class="flex justify-between items-center mb-6 pt-4 border-t border-slate-200">
-                        <span class="text-lg font-semibold text-slate-600">Total:</span>
-                        <span class="text-2xl font-bold text-slate-900">$<span id="cart-total">0.00</span></span>
-                    </div>
-
-                    <!-- The PayPal button will dynamically appear here when items are added -->
-                    <div id="paypal-button-container"></div>
-                </div>
-
+                <img src="mcstuffings.JPG" alt="Summer" class="rounded-2xl shadow-2xl">
             </div>
         </div>
     </section>
 
-    <!-- THE JAVASCRIPT LOGIC -->
+    <!-- GOLF OUTING SECTION -->
+    <section id="featured-event" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 text-center mb-12">
+            <h2 class="text-4xl font-bold mb-6">2026 Annual Golf Outing</h2>
+            <div class="flex gap-6 justify-center">
+                <div class="bg-white p-4 rounded-lg shadow"><span id="days" class="text-3xl font-bold">00</span><p class="text-xs uppercase">Days</p></div>
+                <div class="bg-white p-4 rounded-lg shadow"><span id="hours" class="text-3xl font-bold">00</span><p class="text-xs uppercase">Hrs</p></div>
+                <div class="bg-white p-4 rounded-lg shadow"><span id="mins" class="text-3xl font-bold">00</span><p class="text-xs uppercase">Min</p></div>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow border flex justify-between items-center">
+                    <div><h3 class="text-xl font-bold">Foursome</h3><p class="text-yellow-500 font-bold">$800</p></div>
+                    <button onclick="addToCart('Foursome', 800)" class="bg-slate-900 text-white px-6 py-3 rounded-lg font-bold">Add</button>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow border flex justify-between items-center">
+                    <div><h3 class="text-xl font-bold">Individual</h3><p class="text-yellow-500 font-bold">$200</p></div>
+                    <button onclick="addToCart('Individual', 200)" class="bg-slate-900 text-white px-6 py-3 rounded-lg font-bold">Add</button>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-xl h-fit sticky top-6">
+                <h3 class="text-2xl font-bold mb-4">Your Cart</h3>
+                <ul id="cart-items" class="space-y-3 mb-6"></ul>
+                <div class="text-2xl font-bold mb-6">Total: $<span id="cart-total">0.00</span></div>
+                <div id="paypal-button-container"></div>
+            </div>
+        </div>
+    </section>
+
     <script>
-        let cart = [];
-        let total = 0;
+        const countDownDate = new Date("August 15, 2026 09:00:00").getTime();
+        setInterval(() => {
+            const dist = countDownDate - new Date().getTime();
+            document.getElementById("days").innerText = Math.floor(dist / (1000 * 60 * 60 * 24));
+            document.getElementById("hours").innerText = Math.floor((dist % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            document.getElementById("mins").innerText = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60));
+        }, 1000);
 
-        function addToCart(itemName, price) {
-            cart.push({ name: itemName, price: price });
-            total += price;
-            updateCartUI();
+        let cart = [], total = 0;
+        function addToCart(name, price) {
+            cart.push({name, price}); total += price;
+            updateCart();
         }
-
-        function removeFromCart(index) {
-            total -= cart[index].price;
-            cart.splice(index, 1);
-            updateCartUI();
-        }
-
-        function updateCartUI() {
-            const cartList = document.getElementById('cart-items');
-            const totalDisplay = document.getElementById('cart-total');
-            const paypalContainer = document.getElementById('paypal-button-container');
-
-            // Clear current list
-            cartList.innerHTML = '';
-
-            if (cart.length === 0) {
-                cartList.innerHTML = '<li class="text-slate-500 italic py-2">Your cart is empty.</li>';
-                paypalContainer.innerHTML = ''; 
-                totalDisplay.innerText = "0.00";
-                return;
-            }
-
-            // Rebuild list
-            cart.forEach((item, index) => {
-                const li = document.createElement('li');
-                li.className = "flex justify-between items-center py-2 text-slate-700 font-medium";
-                li.innerHTML = `
-                    <span>${item.name}</span>
-                    <div class="flex items-center gap-4">
-                        <span>$${item.price.toFixed(2)}</span>
-                        <button onclick="removeFromCart(${index})" class="text-red-500 font-bold hover:text-red-700">X</button>
-                    </div>
-                `;
-                cartList.appendChild(li);
-            });
-
-            totalDisplay.innerText = total.toFixed(2);
-
-            // Render the custom PayPal.Me link with the dynamic total and a warning note
-            paypalContainer.innerHTML = `
-                <div class="mt-6 p-4 bg-red-50 border-l-4 border-red-500 rounded text-sm text-red-700 mb-4 shadow-sm">
-                    <strong>⚠️ CRITICAL STEP:</strong> On the next screen, you <u>must</u> write what you are purchasing in the PayPal "What's this for?" note section so we can track your registration!
-                </div>
-                <a href="https://paypal.me/summerstrong/${total}" target="_blank" class="block w-full text-center bg-[#0070ba] text-white px-6 py-4 rounded-lg font-bold text-lg hover:bg-[#005ea6] transition-colors shadow-md">
-                    Checkout with PayPal ($${total.toFixed(2)})
-                </a>
-            `;
+        function updateCart() {
+            const list = document.getElementById('cart-items');
+            list.innerHTML = cart.map((item, i) => `<li>${item.name} - $${item.price}</li>`).join('');
+            document.getElementById('cart-total').innerText = total.toFixed(2);
+            document.getElementById('paypal-button-container').innerHTML = total > 0 ? 
+                `<a href="https://paypal.me/summerstrong/${total}" target="_blank" class="block bg-[#0070ba] text-white text-center py-4 rounded-lg font-bold">Checkout ($${total})</a>` : '';
         }
     </script>
 </body>
